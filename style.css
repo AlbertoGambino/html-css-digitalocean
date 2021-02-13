@@ -19,6 +19,8 @@
   height: 100px;
   line-height: 100px;
   position: fixed;
+  top: 0;
+  left: 0;
   background-color: white;
   z-index: 900;
 
@@ -184,10 +186,13 @@
   padding: 10px 0;
   font-weight: bold;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .signup img{
   width: 20px;
+  position: absolute;
+  left: 5px;
 }
 
 .terms{
@@ -210,9 +215,126 @@
   font-size: 1.25rem;
 }
 .stileloghi{
-  height: 50px;
-  object-fit: contain;
+  height: 100px;
+
 }
 .stileloghi img{
+  height: 100%;
   width: 100%;
+}
+.stileview{
+  color: cyan;
+  text-align: center;
+  padding: 30px 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#deploy{
+  background-color: white;
+}
+
+.stilehdeploy{
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+  padding: 30px 0
+}
+.stilepdeploy{
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+
+.stileul{
+  font-size: 2rem;
+  padding-top: 50px;
+  border-left: grey;
+}
+
+.stileul li{
+  list-style-type: none;
+  padding: 15px;
+  color: grey;
+}
+
+.carta{
+  padding: 50px;
+}
+
+.stilehcarta{
+  padding: 15px 0;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.stilepcarta{
+  font-weight: bold;
+  color: grey;
+
+}
+
+#designed{
+  background-color: #f3f5f9;
+}
+
+#designed .margine{
+  padding: 50px;
+}
+
+.stilehdesigned{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding-bottom: 25px;
+}
+
+.stilepdesigned{
+  text-align: center;
+  color: grey;
+  padding: 25px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.stileimgdesigned{
+  margin: 25px 20px 20px 20px;
+}
+
+.stileimgdesigned img{
+  width: 100%;
+}
+
+.stilearrowl{
+  text-align: right;
+}
+
+.stilearrowl i{
+  padding-top: 200px;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.stilearrowr i{
+  padding-top: 200px;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.stilefotdes{
+  text-align: center;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.pallini{
+  text-align: center;
+}
+
+.pallini i{
+  color: cyan;
+  padding: 2px;
 }
