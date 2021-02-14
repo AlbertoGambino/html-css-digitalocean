@@ -2,8 +2,12 @@
 [class*="col-"]{
   float: left;
   /* height: 100px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .containerf{
@@ -35,7 +39,7 @@
 .stilenavcen{
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .stilenavcen a{
@@ -59,7 +63,7 @@
 .stilenavdx{
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .stilenavdx a{
@@ -245,7 +249,7 @@
   text-align: center;
   color: grey;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 30px;
 }
 
@@ -337,4 +341,83 @@
 .pallini i{
   color: cyan;
   padding: 2px;
+}
+
+#features .margine{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.stilehfeatures{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding-bottom: 25px;
+
+}
+.stileblucarta{
+  padding: 10px 0;
+}
+
+.stileblucarta span{
+  padding-right: 10px;
+}
+
+.stileblucarta a{
+  text-decoration: none;
+  color: cyan;
+  font-weight: bold;
+
+}
+#service{
+  background: linear-gradient(to bottom, #2285fd, #031c4e);
+}
+
+#service .margine{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.stilehservice{
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.blutable{
+  padding: 30px 0;
+
+}
+
+.blutable span{
+  border-bottom: 1px solid white;
+  padding: 15px 0;
+}
+
+.blutable span:first-child,
+.blutable span:nth-child(4),
+.blutable span:nth-child(7),
+.blutable span:nth-child(10),
+.blutable span:nth-child(13),
+.blutable span:nth-child(16){
+  font-weight: bold;
+  color: white;
+  padding-left: 15px;
+}
+.blutable span:nth-child(2),
+.blutable span:nth-child(5),
+.blutable span:nth-child(8),
+.blutable span:nth-child(11),
+.blutable span:nth-child(14),
+.blutable span:nth-child(17){
+  color: grey;
+}
+.blutable span:nth-child(3),
+.blutable span:nth-child(6),
+.blutable span:nth-child(9),
+.blutable span:nth-child(12),
+.blutable span:nth-child(15),
+.blutable span:nth-child(18){
+color: cyan;
 }
