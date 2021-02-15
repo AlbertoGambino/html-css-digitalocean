@@ -421,3 +421,131 @@
 .blutable span:nth-child(18){
 color: cyan;
 }
+
+#development{
+  background-color: #f3f5f9;
+}
+
+#development .stilehdesigned{
+  padding: 50px 0;
+}
+.stileimgrockerbox{
+  padding: 50px 0 25px 0;
+  background-color: white;
+  text-align: center;
+}
+.stileprockerbox{
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background-color: white;
+  padding-bottom: 15px;
+}
+
+.stilerick{
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+}
+
+.stileco{
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+.stileread{
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.stileread a{
+  text-decoration: none;
+  color: cyan;
+}
+
+.stileread span{
+  padding: 5px
+}
+
+#development .stilearrowl i{
+  padding-top: 140px;
+  padding-right: 10px;
+}
+
+#development .stilearrowr i{
+  padding-top: 140px;
+  padding-left: 10px;
+}
+
+#development .pallini{
+  padding: 50px 0;
+}
+
+#getstarted{
+  background-color: blue;
+}
+
+.stilehget{
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 50px 0 20px 0;
+}
+
+.stilebutcreate{
+  text-align: center;
+  padding: 20px 0 50px 0;
+
+}
+
+.stilebutcreate a{
+  text-decoration: none;
+  color: cyan;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer{
+background: linear-gradient(to top, #2285fd, #031c4e);
+}
+
+.stilecol1fot{
+  padding-top: 50px;
+}
+
+.allright{
+  color: lightgrey;
+  padding-top: 15px;
+}
+
+.proudly{
+  color: grey;
+  padding-bottom: 15px;
+}
+
+.social span{
+  padding: 5px;
+  color: lightgrey;
+  font-size: 1.5rem;
+}
+
+.stilecol2fot {
+  padding: 50px 0;
+}
+
+.stilecol2fot li{
+list-style-type: none;
+padding: 5px;
+color: lightgrey;
+}
+
+.stilecol2fot li:first-child{
+  font-weight: bold;
+  color: white;
+}
