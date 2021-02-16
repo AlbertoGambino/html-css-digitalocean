@@ -111,7 +111,7 @@
 }
 
 #jumbo .stileh h1{
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bolder;
   color: white;
 }
@@ -251,6 +251,10 @@
   font-weight: bold;
   font-size: 1.5rem;
   padding-bottom: 30px;
+}
+
+.borlg{
+  border-left: 1px solid lightgrey;
 }
 
 .stileul{
@@ -393,6 +397,12 @@
 .blutable span{
   border-bottom: 1px solid white;
   padding: 15px 0;
+}
+
+.blutable span:last-child,
+.blutable span:nth-child(16),
+.blutable span:nth-child(17){
+  border-bottom: none;
 }
 
 .blutable span:first-child,
@@ -549,3 +559,87 @@ color: lightgrey;
   font-weight: bold;
   color: white;
 }
+@media all and (max-width:766px){
+  #header1{display: none;
+  }
+  #header2{
+    display: block;
+  }
+
+  .margine{
+    width: 95%;
+    margin: auto;
+  }
+
+  #jumbo{
+    margin-top: 0;
+  }
+
+  #jumbo .stileh h1{
+    font-size: 1.7rem;
+  }
+
+  #jumbo .stilep p{
+    font-size: 1.2rem;
+  }
+
+  .stilehdeploy{
+    font-size: 1.7rem;
+  }
+  .stilepdeploy{
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .stileul{
+    font-size: 1rem;
+    border-left: 1px solid lightgrey;
+    padding: 10px 0;
+  }
+
+  .carta{
+    padding: 0;
+  }
+
+  #designed .stilearrowl, #designed .stilearrowr{
+    display: none;
+  }
+  .stileimgdesigned{
+    margin: auto;
+    width: 200%;
+  }
+
+  #designed .margine{
+    width: 95%;
+    padding: 0;
+
+  }
+
+  .stilehdesigned{
+    font-size: 1.7rem;
+    margin: 25px 0;
+    padding-bottom: 0;
+  }
+  .stilefotdes{
+    padding-bottom: 50px;
+  }
+  .pallini{
+    padding-bottom: 50px;
+  }
+  .stilehfeatures{
+    font-size: 1.7rem;
+  }
+  .blutable span{
+    font-size: 0.5rem;
+  }
+
+  #development .stilearrowl, #development .stilearrowr{
+    display: none;
+  }
+  .stileimgrockerbox, .stileprockerbox, .stilerick, .stileco, .stileread{
+    width: 200%;
+    margin: auto;
+  }
+}
+
+@media all and (min-width:767px) and (max-width:991px)
