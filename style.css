@@ -642,4 +642,46 @@ color: lightgrey;
   }
 }
 
-@media all and (min-width:767px) and (max-width:991px)
+@media all and (min-width:767px) and (max-width:991px){
+  #header1{display: none;
+  }
+  #header2{
+    display: block;
+  }
+  .margine{
+    width: 95%;
+    margin: auto;
+  }
+  #jumbo{
+    margin-top: 0;
+  }
+  #jumbo .stileh h1{
+    font-size: 2.5rem;
+  }
+  #jumbo .stilep{
+    margin-top: 20px;
+  }
+  #jumbo .stilep p{
+    font-size: 1.5rem;
+  }
+  .form{
+    margin-bottom: 50px;
+  }
+  .stileul{
+    font-size: 1rem;
+    border-left: 1px solid lightgrey;
+    margin-top: 50px;
+    padding-top: 0;
+  }
+  .carta{
+    padding: 15px;
+  }
+
+  #designed .stilearrowl i, #designed .stilearrowr i{
+    padding-top: 100px;
+  }
+  .blutable span{
+    font-size: 0.5rem;
+  }
+
+}
